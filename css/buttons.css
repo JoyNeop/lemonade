@@ -1,0 +1,13 @@
+/* 
+ * Buttons
+*/
+
+.btn {}
+.btn-large {}
+.btn-mini {}
+
+.btn.primary {}
+.btn.important {}
+.btn.general {}
+.btn.special {}
+.btn.danger {}

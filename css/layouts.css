@@ -1,0 +1,35 @@
+body {
+	background: #EEE;
+
+	padding: 0;
+	margin: 0;
+}
+
+.device {
+	background: #FFF;
+	box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 15px;
+
+	box-sizing: border-box;
+	min-height: 667px;
+	margin: 0 auto;
+}
+
+.device.iphone {
+	width: 375px;
+}
+
+.device.ipad.portrait {
+	width: 768px;
+}
+
+.device.ipad-mini.portrait {
+	width: 768px;
+}
+
+.device.ipad.portrait {
+	width: 768px;
+}
+
+.device.ipad-mini.portrait {
+	width: 768px;
+}
