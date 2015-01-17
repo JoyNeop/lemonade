@@ -1,0 +1,85 @@
+.device.iphone {
+	padding: 15px;
+}
+
+.document-stream-item {
+	padding: 0 0 20px;
+}
+
+.item-header-meta-info {
+	font-size: 13px;
+	height: 40px;
+	margin-bottom: 8px;
+}
+
+.item-avatar-large {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 0 8px 0 0;
+}
+
+.item-avatar-large img {
+	border-radius: 4px;
+
+	width: 100%;
+	height: 100%
+}
+
+.item-header-meta-info-inside {
+}
+
+.user-name {
+	font-weight: 500;
+	color: #005580;
+}
+
+.user-verb {
+	color: #9B9B9B;
+}
+
+.action-time {
+	font-size: 11px;
+	color: #9B9B9B;
+	position: relative;
+	top: 2px;
+	float: right;
+}
+
+.user-action-object {
+	font-weight: 500;
+	color: #005580;
+}
+
+.item-comments-area {
+	border-top: 1px solid #E5E5E5;
+	padding: 5px 0 0;
+	margin: 10px 0 0;
+}
+
+.item-comment {
+	padding: 5px 0;
+}
+
+.item-avatar-small {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 0 8px 0 0;
+}
+
+.item-avatar-small img {
+	border-radius: 4px;
+
+	width: 100%;
+	height: 100%
+}
+
+.comment-user-name {
+	font-size: 13px;
+	color: #005580;
+}
+
+.item-comment-content {
+	font-size: 14px;
+}

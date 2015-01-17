@@ -1,3 +1,11 @@
 body {
 	font-size: 15px;
+	font-weight: 400;
+	color: #585858;
+}
+
+p {
+	line-height: 25px;
+	padding: 6px 0;
+	margin: 0;
 }
