@@ -1,13 +1,15 @@
+@import url(//joyneop.xyz/fonts/open-sans.css);
+
 /* Usually you set font-family at one place.
  * If needed, set respectively.
 */
 
 body, input, textarea, button {
 	/* Default */
-	font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', sans-serif; 
+	font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', 'Heiti SC', sans-serif; 
 
 	/* Your own */
-	font-family: 'Open Sans', Helvetica, 'Hiragino Sans GB', sans-serif;
+	font-family: 'Open Sans', Helvetica, 'Hiragino Sans GB', 'Heiti SC', sans-serif;
 }
 
 body {
@@ -28,4 +30,14 @@ button {
 
 .use-float {
 	overflow: auto;
+}
+
+.lemonade-brand-top {
+	background: #434335;
+	padding: 10px;
+}
+
+.lemonade-brand-top img {
+	display: block;
+	max-width: 100%;
 }

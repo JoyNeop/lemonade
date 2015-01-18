@@ -1,9 +1,8 @@
 .device.iphone {
-	padding: 15px;
 }
 
 .document-stream-item {
-	padding: 0 0 25px;
+	padding: 15px 15px 25px;
 }
 
 .item-header-meta-info {
@@ -35,7 +34,7 @@
 }
 
 .user-name {
-	font-weight: 500;
+	font-weight: 600;
 	color: #005580;
 }
 
@@ -52,7 +51,7 @@
 }
 
 .user-action-object {
-	font-weight: 500;
+	font-weight: 600;
 	color: #005580;
 }
 
@@ -86,6 +85,7 @@
 
 .comment-user-name {
 	font-size: 13px;
+	font-weight: 600;
 	color: #005580;
 }
 
