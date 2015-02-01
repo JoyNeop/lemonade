@@ -2,12 +2,51 @@
  * Buttons
 */
 
-.btn {}
-.btn-large {}
-.btn-mini {}
+.btn {
+	font-weight: 600;
+	text-align: center;
+	border-radius: 3px;
+	text-shadow: rgba(0, 0, 0, 0.0875) 0 1px 0;
 
-.btn.primary {}
-.btn.important {}
+	box-sizing: border-box;
+	display: block;
+}
+
+.btn:hover {
+	box-shadow: rgba(0, 0, 0, 0.1025) 0 1px 8px inset;
+}
+
+.btn-large {
+	font-size: 14px;
+	padding: 6px 0;
+	width: 108px;
+}
+
+.btn-mini {
+	font-size: 14px;
+	padding: 3px 0;
+	width: 84px;
+}
+
+.btn.primary {
+	color: #FFF;
+	background: #20c8af;
+}
+
+.btn.primary:hover {
+	background: #199C89;
+}
+
+.btn.important {
+	color: #FFF;
+	background: #0088CC;
+}
+
 .btn.general {}
+
 .btn.special {}
-.btn.danger {}
+
+.btn.danger {
+	color: #FFF;
+	background: #FE0202;
+}
