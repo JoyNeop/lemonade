@@ -1,7 +1,14 @@
 body {
-	font-size: 15px;
 	font-weight: 400;
-	color: #444;
+	color: #333;
+}
+
+.iphone {
+	font-size: 15px;
+}
+
+.ipad {
+	font-size: 16px;
 }
 
 p {
@@ -16,4 +23,8 @@ p {
 
 .link {
 	color: #005580;
+}
+
+.FA {
+	margin-right: 5px;
 }

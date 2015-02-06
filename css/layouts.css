@@ -7,11 +7,12 @@ body {
 
 .device {
 	background: #FFF;
+	background: #F2F2F2;
 	box-shadow: rgba(0, 0, 0, 0.25) 0 0 0 7px;
 
 	box-sizing: border-box;
 	min-height: 100vh;
-	padding: 60px 0 0;
+	padding: 60px 0;
 	margin: 0 auto;
 }
 
@@ -19,11 +20,7 @@ body {
 	width: 320px;
 }
 
-.device.ipad.portrait {
-	width: 768px;
-}
-
-.device.ipad-mini.portrait {
+.device.ipad {
 	width: 768px;
 }
 
@@ -31,6 +28,18 @@ body {
 	width: 768px;
 }
 
+.device.ipad-mini {
+	width: 768px;
+}
+
 .device.ipad-mini.portrait {
 	width: 768px;
+}
+
+.device.ipad.landscape {
+	width: 1024px;
+}
+
+.device.ipad-mini.landscape {
+	width: 1024px;
 }

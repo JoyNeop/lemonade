@@ -1,6 +1,18 @@
 .document-stream-item {
-	padding: 20px 0;
-	margin: 0 15px;
+	background: #FFF;
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.255) 0 1px 3px;
+	overflow: hidden;
+}
+
+.iphone .document-stream-item {
+	padding: 12px 0 0;
+	margin: 0 8px 15px;
+}
+
+.ipad .document-stream-item {
+	padding: 20px 0 0;
+	margin: 0 20px 20px;
 }
 
 .item-avatar-large img {
@@ -10,17 +22,75 @@
 	height: 100%
 }
 
+.item-content {
+	overflow: auto;
+}
+
+.iphone .item-content {
+	padding: 0 12px 6px;
+}
+
+.ipad .item-content {
+	padding: 0 20px 10px;
+}
+
+.item-buttons-area {
+	color: #666;
+	overflow: auto;
+}
+
+.iphone .item-buttons-area {
+	/*height: 31px;*/
+	padding: 0px 12px 12px;
+}
+
+.ipad .item-buttons-area {
+	/*height: 36px;*/
+	padding: 0px 20px 13px;
+}
+
+.feed-button {
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	box-sizing: border-box;
+}
+
+.iphone .feed-button {
+	/*height: 31px;*/
+	/*padding: 7px 0;*/
+}
+
+.ipad .feed-button {
+	/*height: 39px;*/
+	/*padding: 11px 0;*/
+}
+
+/*.feed-button._hover {
+	background: #E5E5E5;
+	box-shadow: rgba(0, 0, 0, 0.09) 0 0 4px inset;
+}*/
+
+.btn.upvote-the-feed {
+	float: left;
+}
+
+.btn.add-a-comment {
+	float: right;
+}
+
 .comment-box {
+	font-size: 14px;
+	background: #FFF;
 	border: 1px solid #E5E5E5;
 	border-radius: 3px;
-	/*height: 30px;*/
 	margin: 6px 0 0;
 }
 
 .comment-box-text-placeholder {
 	color: #DDD;
 	display: block;
-	padding: 6px 10px;
+	padding: 3px 8px;
 }
 
 .item-avatar-small img {
@@ -38,41 +108,52 @@
 
 /* ----------------------- */
 
-.NewsFeed .item-header-meta-info {
+.item-header-meta-info {
+}
+
+.iphone .item-header-meta-info {
 	font-size: 13px;
 	height: 40px;
+	padding: 0 12px;
 	margin-bottom: 2px;
 }
 
-.NewsFeed .item-avatar-large img, .NewsFeed .item-avatar-small img {
+.ipad .item-header-meta-info {
+	font-size: 14px;
+	height: 40px;
+	padding: 0 20px 10px;
+	margin-bottom: 2px;
+}
+
+.item-avatar-large img, .NewsFeed .item-avatar-small img {
 	box-shadow: #DDD 0 0 0 1px;
 }
 
-.NewsFeed .item-avatar-large {
+.item-avatar-large {
 	float: left;
 	width: 40px;
 	height: 40px;
 	margin: 0 8px 0 0;
 }
 
-.NewsFeed .item-header-meta-info-inside {
+.item-header-meta-info-inside {
 }
 
-.NewsFeed .item-action-line {
+.item-action-line {
 	height: 18px;
 	padding: 2px 0 0;
 }
 
-.NewsFeed .user-name {
+.user-name {
 	font-weight: 600;
 	color: #005580;
 }
 
-.NewsFeed .user-verb {
+.user-verb {
 	color: #9B9B9B;
 }
 
-.NewsFeed .action-time {
+.action-time {
 	font-size: 11px;
 	color: #9B9B9B;
 	position: relative;
@@ -80,32 +161,42 @@
 	float: right;
 }
 
-.NewsFeed .user-action-object {
+.user-action-object {
 }
 
-.NewsFeed .item-comments-area {
+.item-comments-area {
+	background: #F9F9F9;
 	border-top: 1px solid #E5E5E5;
-	padding: 10px 0 0;
-	margin: 10px 0 0;
 }
 
-.NewsFeed .item-comment {
-	padding: 7px 0;
+.iphone .item-comments-area {
+	padding: 4px 12px 12px;
+	margin: 0 0;
 }
 
-.NewsFeed .item-comment-meta-line {
+.ipad .item-comments-area {
+	padding: 10px 20px;
+	margin: 0 0;
+}
+
+.item-comment {
+	padding: 4px 0;
+}
+
+.item-comment-meta-line {
 	height: 22px;
 }
 
-.NewsFeed .item-avatar-small {
+.item-avatar-small {
 	float: left;
 	width: 20px;
 	height: 20px;
 	margin: 0 8px 0 0;
 }
 
-.NewsFeed .item-comment-content {
+.item-comment-content {
 	font-size: 14px;
+	padding-left: 28px;
 }
 
 /* ----------------------- */
