@@ -1,0 +1,220 @@
+.document-stream-item {
+	background: #FFF;
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.255) 0 1px 3px;
+	overflow: hidden;
+}
+
+.iphone .document-stream-item {
+	padding: 12px 0 0;
+	margin: 0 8px 15px;
+}
+
+.ipad .document-stream-item {
+	padding: 20px 0 0;
+	margin: 0 20px 20px;
+}
+
+.item-avatar-large img {
+	border-radius: 4px;
+
+	width: 100%;
+	height: 100%
+}
+
+.item-content {
+	overflow: auto;
+}
+
+.iphone .item-content {
+	padding: 0 12px 6px;
+}
+
+.ipad .item-content {
+	padding: 0 20px 10px;
+}
+
+.item-buttons-area {
+	color: #666;
+	overflow: auto;
+}
+
+.iphone .item-buttons-area {
+	/*height: 31px;*/
+	padding: 0px 12px 12px;
+}
+
+.ipad .item-buttons-area {
+	/*height: 36px;*/
+	padding: 0px 20px 13px;
+}
+
+.feed-button {
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	box-sizing: border-box;
+}
+
+.iphone .feed-button {
+	/*height: 31px;*/
+	/*padding: 7px 0;*/
+}
+
+.ipad .feed-button {
+	/*height: 39px;*/
+	/*padding: 11px 0;*/
+}
+
+/*.feed-button._hover {
+	background: #E5E5E5;
+	box-shadow: rgba(0, 0, 0, 0.09) 0 0 4px inset;
+}*/
+
+.btn.upvote-the-feed {
+	float: left;
+}
+
+.btn.add-a-comment {
+	float: right;
+}
+
+.comment-box {
+	font-size: 14px;
+	background: #FFF;
+	border: 1px solid #E5E5E5;
+	border-radius: 3px;
+	margin: 6px 0 0;
+}
+
+.comment-box-text-placeholder {
+	color: #DDD;
+	display: block;
+	padding: 3px 8px;
+}
+
+.item-avatar-small img {
+	border-radius: 3px;
+
+	width: 100%;
+	height: 100%
+}
+
+.comment-user-name {
+	font-size: 13px;
+	font-weight: 600;
+	color: #005580;
+}
+
+/* ----------------------- */
+
+.item-header-meta-info {
+}
+
+.iphone .item-header-meta-info {
+	font-size: 13px;
+	height: 40px;
+	padding: 0 12px;
+	margin-bottom: 2px;
+}
+
+.ipad .item-header-meta-info {
+	font-size: 14px;
+	height: 40px;
+	padding: 0 20px 10px;
+	margin-bottom: 2px;
+}
+
+.item-avatar-large img, .NewsFeed .item-avatar-small img {
+	box-shadow: #DDD 0 0 0 1px;
+}
+
+.item-avatar-large {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 0 8px 0 0;
+}
+
+.item-header-meta-info-inside {
+}
+
+.item-action-line {
+	height: 18px;
+	padding: 2px 0 0;
+}
+
+.user-name {
+	font-weight: 600;
+	color: #005580;
+}
+
+.user-verb {
+	color: #9B9B9B;
+}
+
+.action-time {
+	font-size: 11px;
+	color: #9B9B9B;
+	position: relative;
+	top: 2px;
+	float: right;
+}
+
+.user-action-object {
+}
+
+.item-comments-area {
+	background: #F9F9F9;
+	border-top: 1px solid #E5E5E5;
+}
+
+.iphone .item-comments-area {
+	padding: 4px 12px 12px;
+	margin: 0 0;
+}
+
+.ipad .item-comments-area {
+	padding: 10px 20px;
+	margin: 0 0;
+}
+
+.item-comment {
+	padding: 4px 0;
+}
+
+.item-comment-meta-line {
+	height: 22px;
+}
+
+.item-avatar-small {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 0 8px 0 0;
+}
+
+.item-comment-content {
+	font-size: 14px;
+	padding-left: 28px;
+}
+
+/* ----------------------- */
+
+.Discover .document-stream-item {
+	border-bottom: 1px solid #DDD;
+}
+
+.Discover .item-header-meta-info {
+}
+
+.Discover .item-project-title {
+	font-size: 16px;
+	color: #005580;
+	padding-bottom: 8px;
+	margin-right: 90px;
+}
+
+.Discover .item-project-follow-button {
+	float: right;
+}
