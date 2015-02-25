@@ -3,7 +3,7 @@
 */
 
 .btn {
-	font-weight: 600;
+	font-weight: 400;
 	text-align: center;
 	border-radius: 3px;
 	text-shadow: rgba(0, 0, 0, 0.0875) 0 1px 0;
@@ -15,37 +15,37 @@
 .iphone .btn-large {
 	font-size: 14px;
 	padding: 6px 0;
-	width: 108px;
+	min-width: 108px;
 }
 
 .ipad .btn-large {
 	font-size: 15px;
 	padding: 8px 0;
-	width: 120px;
+	min-width: 120px;
 }
 
 .iphone .btn-mini {
 	font-size: 14px;
 	padding: 3px 0;
-	width: 84px;
+	min-width: 84px;
 }
 
 .ipad .btn-mini {
 	font-size: 15px;
 	padding: 6px 0;
-	width: 98px;
+	min-width: 98px;
 }
 
 .iphone .btn-nano {
-	font-size: 15px;
-	padding: 3px 0;
-	width: 42px;
+	font-size: 13px;
+	padding: 3px 9px;
+	min-width: 42px;
 }
 
 .ipad .btn-nano {
 	font-size: 16px;
 	padding: 5px 0;
-	width: 50px;
+	min-width: 50px;
 }
 
 .btn.primary {
