@@ -1,18 +1,20 @@
 .document-stream-item {
 	background: #FFF;
 	border-radius: 3px;
-	box-shadow: rgba(0, 0, 0, 0.255) 0 1px 3px;
+	box-shadow: rgba(0, 0, 0, 0.125) 0 1px 2px;
 	overflow: hidden;
 }
 
 .iphone .document-stream-item {
 	padding: 12px 0 0;
-	margin: 0 8px 15px;
+	margin: 0 10px 15px;
+	margin: 0 0 15px;
 }
 
 .ipad .document-stream-item {
 	padding: 20px 0 0;
 	margin: 0 20px 20px;
+	/*margin: 0 0 20px;*/
 }
 
 .item-avatar-large img {
@@ -27,7 +29,7 @@
 }
 
 .iphone .item-content {
-	padding: 0 12px 6px;
+	padding: 0 10px 6px;
 }
 
 .ipad .item-content {
@@ -72,10 +74,13 @@
 }*/
 
 .btn.upvote-the-feed {
-	float: left;
+	/*float: left;*/
+	float: right;
+	border: none;
 }
 
 .btn.add-a-comment {
+	display: none;
 	float: right;
 }
 
@@ -84,6 +89,7 @@
 	background: #FFF;
 	border: 1px solid #E5E5E5;
 	border-radius: 3px;
+	/*display: none;*/
 	margin: 6px 0 0;
 }
 
@@ -101,8 +107,8 @@
 }
 
 .comment-user-name {
-	font-size: 13px;
-	font-weight: 600;
+	font-size: 14px;
+	font-weight: 500;
 	color: #005580;
 }
 
@@ -112,28 +118,28 @@
 }
 
 .iphone .item-header-meta-info {
-	font-size: 13px;
+	font-size: 14px;
 	height: 40px;
 	padding: 0 12px;
 	margin-bottom: 2px;
 }
 
 .ipad .item-header-meta-info {
-	font-size: 14px;
+	font-size: 15px;
 	height: 40px;
 	padding: 0 20px 10px;
 	margin-bottom: 2px;
 }
 
-.item-avatar-large img, .NewsFeed .item-avatar-small img {
-	box-shadow: #DDD 0 0 0 1px;
+.item-avatar-large img, .item-avatar-small img {
+	/*box-shadow: #DDD 0 0 0 1px;*/
 }
 
 .item-avatar-large {
 	float: left;
 	width: 40px;
 	height: 40px;
-	margin: 0 8px 0 0;
+	margin: 0 12px 0 0;
 }
 
 .item-header-meta-info-inside {
@@ -141,31 +147,37 @@
 
 .item-action-line {
 	height: 18px;
-	padding: 2px 0 0;
+	padding: 0 0 2px;
 }
 
 .user-name {
-	font-weight: 600;
+	font-size: 13px;
+	font-weight: 500;
 	color: #005580;
 }
 
 .user-verb {
+	font-size: 13px;
+	font-weight: 300;
 	color: #9B9B9B;
 }
 
 .action-time {
 	font-size: 11px;
+	font-weight: 300;
 	color: #9B9B9B;
 	position: relative;
-	top: 2px;
+	top: 4px;
 	float: right;
 }
 
 .user-action-object {
+	font-size: 16px;
+	font-weight: 300;
 }
 
 .item-comments-area {
-	background: #F9F9F9;
+	/*background: #F9F9F9;*/
 	border-top: 1px solid #E5E5E5;
 }
 
@@ -217,4 +229,74 @@
 
 .Discover .item-project-follow-button {
 	float: right;
+	display: none;
+}
+
+/* ----------------------- */
+
+.Project .project-meta-container {
+	background: #FFF;
+	box-shadow: rgba(0, 0, 0, 0.125) 0 1px 2px;
+	margin-bottom: 22px;
+}
+
+.Project .iphone .project-meta-container > * {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.Project .ipad .project-meta-container > * {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.Project .project-meta-container .project-title {
+	font-size: 1.125em;
+	font-weight: 500;
+	padding-top: 20px;
+}
+
+.Project .project-meta-container .project-introduction {
+	padding-top: 4px;
+	padding-bottom: 8px;
+}
+
+.Project .project-meta-container .project-actions-line {
+	border-top: 1px solid #F0F0F0;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: auto;
+}
+
+.Project .project-meta-container .item-project-follow-button {
+	float: right;
+}
+
+.Project .project-meta-container .project-follow-count {
+	padding-top: 7px;
+	padding-top: 4px;
+}
+
+.Project .iphone .project-meta-container .project-follow-count {
+	padding-left: 10px !important;
+}
+
+.Project .ipad .project-meta-container .project-follow-count {
+	padding-left: 20px !important;
+}
+
+.Project .project-meta-container .project-follow-count span {
+	font-size: 13px;
+	color: #CCC;
+	color: #888;
+	padding-right: 10px;
+}
+
+.Project .project-meta-container .button-add-post {
+	font-size: 14px; color: #777;
+	text-align: center;
+	display: block;
+	padding: 8px 0;
 }

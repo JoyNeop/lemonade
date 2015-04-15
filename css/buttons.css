@@ -4,47 +4,49 @@
 
 .btn {
 	font-weight: 400;
+	letter-spacing: 0.02rem;
+	/*text-transform: uppercase;*/
 	text-align: center;
 	border-radius: 3px;
-	text-shadow: rgba(0, 0, 0, 0.0875) 0 1px 0;
+	text-shadow: rgba(0, 0, 0, 0.0575) 0 1px 1px;
 
 	box-sizing: border-box;
 	display: block;
 }
 
 .iphone .btn-large {
-	font-size: 14px;
-	padding: 6px 0;
+	font-size: 15px;
+	padding: 6px 0 5px;
 	min-width: 108px;
 }
 
 .ipad .btn-large {
-	font-size: 15px;
-	padding: 8px 0;
+	font-size: 17px;
+	padding: 8px 0 7px;
 	min-width: 120px;
 }
 
 .iphone .btn-mini {
 	font-size: 14px;
-	padding: 3px 0;
+	padding: 3px 0 2px;
 	min-width: 84px;
 }
 
 .ipad .btn-mini {
 	font-size: 15px;
-	padding: 6px 0;
+	padding: 6px 0 5px;
 	min-width: 98px;
 }
 
 .iphone .btn-nano {
-	font-size: 13px;
-	padding: 3px 9px;
+	font-size: 14px;
+	padding: 4px 9px;
 	min-width: 42px;
 }
 
 .ipad .btn-nano {
 	font-size: 16px;
-	padding: 5px 0;
+	padding: 6px 11px;
 	min-width: 50px;
 }
 
@@ -59,7 +61,13 @@
 
 .btn.important {
 	color: #FFF;
-	background: #0088CC;
+	background: #04A8FC;
+}
+
+.btn.impress {
+	color: #FFF;
+	background: #F4CD22;
+	/*text-shadow: none;*/
 }
 
 .btn.general {
